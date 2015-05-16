@@ -43,10 +43,10 @@ strFriends = friendsData.ToJson(); // strFriends is "[{\"id\":1, \"name\":\"nigh
 =============================================
 
 
-����˵��:
-LitJson��Ϊʹ���˷��䣬��֧��iOSƽ̨�������Ұѽ���ģ���滻����MiniJson��
+中文说明:
+LitJson因为使用了反射，不支持iOS平台。所以我把解析模块替换成了MiniJson。
 
-���ԣ�
-1. �ӿڸ�LitJson��ȫһ�¡�
-2. ֧��iOS/Android/WP8/Win8��ƽ̨��
-3. ���϶����Ϸ�����ȶ����У��ɿ��Ժ�������ȫû���⡣
+特性：
+1. 接口跟LitJson完全一致。
+2. 支持iOS/Android/WP8/Win8等平台。
+3. 线上多款游戏长期稳定运行，可靠性和性能完全没问题。
