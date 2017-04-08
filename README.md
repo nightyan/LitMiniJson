@@ -43,7 +43,6 @@ LitMiniJson
     newFriend["name"] = "terry";
     friendsData.Add(newFriend);
     strFriends = friendsData.ToJson(); // strFriends is "[{\"id\":1, \"name\":\"night\"},{\"id\":3, \"name\":\"tom\"},{\"id\":4, \"name\":\"terry\"}]"
-=============================================
 
 
 中文说明:
