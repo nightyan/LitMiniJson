@@ -35,12 +35,12 @@ LitMiniJson
         string name = friendsData[i]["name"].ToString();     // night or tom
     }
     
-    // foreach形式，必须显式指明JsonData类型
-    foreach (JsonData data in friendsData) { // 此处不可写var data
-        int id = int.Parse(data.ToString());   // 1 or 3
+    // foreach形式，必须显式指明JsonData类型
+    foreach (JsonData data in friendsData) {   // 此处不可写var data
+        int id = int.Parse(data.ToString());   // 1 or 3
         string name = data["name"].ToString(); // night or tom
     }
-
+    
     // json object --> string
     string strFriends = friendsData.ToJson(); // strFriends is "[{\"id\":1, \"name\":\"night\"},{\"id\":3, \"name\":\"tom\"}]"
 
